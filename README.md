@@ -118,7 +118,7 @@ LIMIT 10;
 ```
 
 ### 4. City-Level Insights for Top Markets
-**Goal:** Goal: Identifying the most active cities within the top performing countries.
+**Goal:** Identifying the most active cities within the top performing countries.
 ```sql
 WITH Top_10_Country AS (
     SELECT "BillingCountry", COUNT("InvoiceId") AS Total_Invoice
